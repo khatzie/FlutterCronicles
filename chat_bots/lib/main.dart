@@ -130,7 +130,7 @@ class Message {
 
 Future<String> getChatGPTResponse(String prompt) async {
   const String apiUrl = 'https://api.openai.com/v1/chat/completions';
-  const String apiKey = '{API KEY HERE}';
+  const String apiKey = '{OPEN AI API KEY HERE}';
 
   final response = await http.post(
     Uri.parse(apiUrl),
